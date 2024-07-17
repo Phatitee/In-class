@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.PersonalController">
+   <children>
+      <Button layoutX="402.0" layoutY="303.0" mnemonicParsing="false" onAction="#onNextButtonClick" text="next" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="347.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../picture/my.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="103.0" layoutY="77.0" text="Personal">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="140.0" text="Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="176.0" text="Nick Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="213.0" text="Nisit ID">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="247.0" text="Username Github">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="109.0" layoutY="140.0" prefHeight="21.0" prefWidth="0.0" text=":">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="131.0" layoutY="176.0" prefHeight="21.0" prefWidth="0.0" text=":">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="131.0" layoutY="213.0" prefHeight="21.0" prefWidth="0.0" text=":">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="182.0" layoutY="247.0" prefHeight="21.0" prefWidth="0.0" text=":">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="133.0" layoutY="140.0" text="Chaimongkhon Nakkaew">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="144.0" layoutY="176.0" text="Phat">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="213.0" text="6610450111">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="247.0" text="Phatitee">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
